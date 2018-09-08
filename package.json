@@ -3,7 +3,10 @@
 	"version": "1.0.0",
 	"description": "ssudio",
 	"main": "index.js",
-	"scripts": {},
+	"scripts": {
+		"start": "ts-node node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.dev.config.ts --progress --open",
+		"build": "ts-node node_modules/webpack/bin/webpack.js --config webpack.dist.config.ts --progress --profile --colors"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/scott20145/SSUDIO.git"
@@ -26,6 +29,7 @@
 		"@types/webpack-dev-server": "2.4.1",
 		"clean-webpack-plugin": "0.1.16",
 		"copy-webpack-plugin": "4.0.1",
+		"css-loader": "^1.0.0",
 		"exports-loader": "^0.6.4",
 		"expose-loader": "0.7.3",
 		"extract-text-webpack-plugin": "^2.1.0",
@@ -35,6 +39,10 @@
 		"hard-source-webpack-plugin": "^0.5.14",
 		"html-webpack-plugin": "2.29.0",
 		"imports-loader": "^0.7.1",
+		"node-sass": "^4.9.3",
+		"resolve-url-loader": "^2.3.1",
+		"sass-loader": "^7.1.0",
+		"style-loader": "^0.23.0",
 		"ts-loader": "2.3.2",
 		"ts-node": "^4.1.0",
 		"tslint": "5.5.0",

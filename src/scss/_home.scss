@@ -1,0 +1,22 @@
+#pageheader {
+    background: url('../../assets/home/header.jpg') center center / cover;
+    padding-top: 100px;
+}
+
+.page-header {
+    height: 700px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    font-family: Montserrat;
+    vertical-align: middle;
+    line-height: 51px;
+    position: relative;
+    top: 25%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
