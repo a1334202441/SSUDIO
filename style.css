@@ -1,0 +1,58 @@
+html,body{
+    font-family: "Source Sans Pro";
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    color: #444;
+    font-size: 16px;
+}
+
+header {
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid transparent;
+}
+
+#pageheader {
+    background: url('./assets/header.jpg') center center / cover;
+    padding-top: 100px;
+}
+
+.page-header {
+    height: 700px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    font-family: Montserrat;
+    vertical-align: middle;
+    line-height: 51px;
+    position: relative;
+    top: 42%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul a {
+    color: white;
+    font-family: Montserrat;
+    line-height: 24px;
+    letter-spacing: .2px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
